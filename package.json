@@ -1,0 +1,9 @@
+{
+  "name": "todo-project",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "set JAVA_HOME=C:\\Program Files\\Microsoft\\jdk-21.0.10.7-hotspot&& cd backend && .\\mvnw.cmd spring-boot:run",
+    "dev:watcher": "set JAVA_HOME=C:\\Program Files\\Microsoft\\jdk-21.0.10.7-hotspot&& cd backend && .\\mvnw.cmd watcher:run"
+  }
+}
